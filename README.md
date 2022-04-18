@@ -1,4 +1,11 @@
 # Smoothie on Debian
+#### **What is Smoothie?**
+Smoothie is an open-source utility designed to convert high FPS content to videos with highly configurable motion blur. It can be used on high FPS content to do Frame Blending, and can be optionally paired with Frame Interpolation for a more seamless blur.
+
+Smoothie's Repository: https://github.com/couleur-tweak-tips/smoothie
+
+#### Help
+If you need any help or have issues, make an issue on this repository or join Couleur Tweak Tips: https://discord.gg/ctt
 
 ## Getting Started
 Let's do a basic rundown of the items, we are downloading and installing:
@@ -50,7 +57,7 @@ git clone https://github.com/couleurm/vs-frameblender
 After that download SVPFlow: https://www.svp-team.com/files/gpl/svpflow-4.3.0.168.zip               
 Create a new directory with the name of `plugins` in the Smoothie folder.
 
-Then unzip `svpflow-4.3.0.168.zip` and dump the .so files present in `lib-linux`.      
+Then unzip `svpflow-4.3.0.168.zip` and dump the .so files present in `lib-linux` into the plugins directory, you just made.    
 In the `plugins` directory run: 
 ```
 curl https://github.com/couleurm/vs-frameblender/releases/download/1.2/vs-frameblender-1.2.so -o vs-frameblender-1.2.so
